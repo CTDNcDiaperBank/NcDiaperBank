@@ -46,6 +46,9 @@ class HotspotsController < ApplicationController
         redirect_to hotspots_path
     end
     
+    def show
+    end
+    
     private
     
     def hotspot_params
